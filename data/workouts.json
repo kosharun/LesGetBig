@@ -1,0 +1,8 @@
+[
+	{ "id": "workout_1", "ownerId": "user_trainer_1", "title": "Full Body A", "exercises": [
+		{"name":"Squat","sets":3,"reps":"6-8"},
+		{"name":"Bench Press","sets":3,"reps":"6-8"},
+		{"name":"Row","sets":3,"reps":"8-10"}
+	]}
+]
+

@@ -1,0 +1,5 @@
+[
+	{ "id": "profile_trainer_1", "userId": "user_trainer_1", "bio": "Certified strength coach.", "age": 32, "heightCm": 180, "weightKg": 82 },
+	{ "id": "profile_client_1", "userId": "user_client_1", "bio": "New to lifting.", "age": 27, "heightCm": 175, "weightKg": 72 }
+]
+
