@@ -1,0 +1,26 @@
+[
+	{ 
+		"id": "profile_trainer_1", 
+		"userId": "user_trainer_1", 
+		"bio": "Certificirani personalni trener s 10 godina iskustva u radu s klijentima. Specijaliziran za funkcionalni trening, gubitak težine i rehabilitaciju sportskih povreda. Pomaže klijentima postići ihre fitness ciljeve kroz znanstveno utemeljene i personalizirane pristupe.", 
+		"age": 32, 
+		"heightCm": 180, 
+		"weightKg": 82,
+		"certifications": "NASM-CPT, ACSM-EP, FMS Level 2",
+		"specializations": "Funkcionalni trening, Gubitak težine, Rehabilitacija",
+		"experience": "10+ godina"
+	},
+	{ 
+		"id": "profile_client_1", 
+		"userId": "user_client_1", 
+		"bio": "Motivisan klijent koji se vraća treningu nakon duže pauze. Radi u uredu i želi poboljšati svoju kondiciju, izgubiti višak kilograma i ojačati mišiće. Voli izazove i spreman je posvetiti vrijeme svom napretku.", 
+		"age": 27, 
+		"heightCm": 175, 
+		"weightKg": 72,
+		"goals": "Gubitak 5-8kg, poboljšanje kondicije, izgradnja mišićne mase",
+		"experience": "Povratnik - 2 godine pauze",
+		"injuries": "Lagana bol u donjem dijelu leđa (uredno)",
+		"availability": "Ponedjeljak, srijeda, petak - navečer"
+	}
+]
+

@@ -1,5 +1,0 @@
-[
-	{ "id": "msg_1", "fromId": "user_trainer_1", "toId": "user_client_1", "text": "Welcome to Forma+!", "sentAt": "2025-08-25T10:00:00.000Z" },
-	{ "id": "msg_2", "fromId": "user_client_1", "toId": "user_trainer_1", "text": "Thanks coach!", "sentAt": "2025-08-25T10:05:00.000Z" }
-]
-

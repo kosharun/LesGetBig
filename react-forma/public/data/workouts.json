@@ -1,0 +1,47 @@
+[
+	{ 
+		"id": "workout_1", 
+		"ownerId": "user_trainer_1", 
+		"title": "Početni funkcionalni trening A", 
+		"exercises": [
+			{"name":"Bodyweight čučnjevi","sets":3,"reps":"10-15","rest":"60s","notes":"Fokus na dubinu i pravilnu tehniku"},
+			{"name":"Sklekovi na koljenima","sets":3,"reps":"8-12","rest":"60s","notes":"Postupno povećavati broj ponavljanja"},
+			{"name":"Plank","sets":3,"reps":"30-45s","rest":"45s","notes":"Ravna linija tijela"},
+			{"name":"Glute bridges","sets":3,"reps":"12-15","rest":"45s","notes":"Stisnuti gluteuse na vrhu"},
+			{"name":"Wall sits","sets":2,"reps":"30-45s","rest":"60s","notes":"Lakše za početak"}
+		],
+		"type": "Funkcionalni",
+		"difficulty": "Početnik",
+		"duration": "45-60 min"
+	},
+	{ 
+		"id": "workout_2", 
+		"ownerId": "user_trainer_1", 
+		"title": "Početni funkcionalni trening B", 
+		"exercises": [
+			{"name":"Step-ups","sets":3,"reps":"10/nogu","rest":"60s","notes":"Koristiti stabilan step"},
+			{"name":"Pike push-ups","sets":3,"reps":"6-10","rest":"60s","notes":"Za ramena"},
+			{"name":"Dead bug","sets":3,"reps":"8/strana","rest":"45s","notes":"Sporo i kontrolirano"},
+			{"name":"Reverse lunges","sets":3,"reps":"10/nogu","rest":"60s","notes":"Bez utega za početak"},
+			{"name":"Bird dog","sets":3,"reps":"10/strana","rest":"45s","notes":"Stabilnost core-a"}
+		],
+		"type": "Funkcionalni",
+		"difficulty": "Početnik",
+		"duration": "45-60 min"
+	},
+	{ 
+		"id": "workout_3", 
+		"ownerId": "user_trainer_1", 
+		"title": "HIIT kardio sesija", 
+		"exercises": [
+			{"name":"Jumping jacks","sets":4,"reps":"30s rad / 30s odmor","rest":"60s između setova","notes":"Lagano za početak"},
+			{"name":"Mountain climbers","sets":4,"reps":"20s rad / 40s odmor","rest":"60s između setova","notes":"Fokus na tehniku"},
+			{"name":"High knees","sets":4,"reps":"30s rad / 30s odmor","rest":"60s između setova","notes":"Podići koljena visoko"},
+			{"name":"Burpees modificirani","sets":3,"reps":"20s rad / 40s odmor","rest":"90s između setova","notes":"Bez skoka za početak"}
+		],
+		"type": "HIIT",
+		"difficulty": "Početnik-Srednji",
+		"duration": "20-25 min"
+	}
+]
+

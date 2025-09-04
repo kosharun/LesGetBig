@@ -1,0 +1,25 @@
+[
+	{ 
+		"id": "nutrition_1", 
+		"ownerId": "user_trainer_1", 
+		"title": "Plan gubitka težine - umjeren deficitet", 
+		"calories": 1850, 
+		"protein": 130, 
+		"carbs": 185, 
+		"fat": 72,
+		"description": "Umjeren kalorijski deficitet za postupan i održiv gubitak težine",
+		"tips": "Fokus na proteinske izvore, kompleksne ugljikohidrate i zdrave masti"
+	},
+	{ 
+		"id": "nutrition_2", 
+		"ownerId": "user_trainer_1", 
+		"title": "Održavanje - aktivni lifestyle", 
+		"calories": 2100, 
+		"protein": 140, 
+		"carbs": 210, 
+		"fat": 85,
+		"description": "Plan za održavanje težine uz redovitu aktivnost",
+		"tips": "Povećani unos ugljikohidrata oko treninga za bolje performanse"
+	}
+]
+

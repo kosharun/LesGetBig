@@ -1,0 +1,17 @@
+[
+	{ "id": "prog_1", "userId": "user_client_1", "date": "2024-12-16", "metric": "weightKg", "value": 76.2 },
+	{ "id": "prog_2", "userId": "user_client_1", "date": "2024-12-16", "metric": "bodyFatPercent", "value": 18.5 },
+	{ "id": "prog_3", "userId": "user_client_1", "date": "2024-12-16", "metric": "chestCm", "value": 95 },
+	{ "id": "prog_4", "userId": "user_client_1", "date": "2024-12-16", "metric": "waistCm", "value": 88 },
+	{ "id": "prog_5", "userId": "user_client_1", "date": "2024-12-20", "metric": "weightKg", "value": 75.8 },
+	{ "id": "prog_6", "userId": "user_client_1", "date": "2024-12-23", "metric": "weightKg", "value": 75.4 },
+	{ "id": "prog_7", "userId": "user_client_1", "date": "2024-12-27", "metric": "weightKg", "value": 75.0 },
+	{ "id": "prog_8", "userId": "user_client_1", "date": "2024-12-30", "metric": "weightKg", "value": 74.8 },
+	{ "id": "prog_9", "userId": "user_client_1", "date": "2024-12-30", "metric": "bodyFatPercent", "value": 17.8 },
+	{ "id": "prog_10", "userId": "user_client_1", "date": "2024-12-30", "metric": "chestCm", "value": 96 },
+	{ "id": "prog_11", "userId": "user_client_1", "date": "2024-12-30", "metric": "waistCm", "value": 86 },
+	{ "id": "prog_12", "userId": "user_client_1", "date": "2025-01-03", "metric": "weightKg", "value": 74.2 },
+	{ "id": "prog_13", "userId": "user_client_1", "date": "2025-01-06", "metric": "weightKg", "value": 73.9 },
+	{ "id": "prog_14", "userId": "user_client_1", "date": "2025-01-08", "metric": "weightKg", "value": 73.5 }
+]
+

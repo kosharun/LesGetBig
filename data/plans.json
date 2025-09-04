@@ -1,5 +1,0 @@
-[
-	{ "id": "plan_1", "clientId": "user_client_1", "type": "training", "title": "4-week Strength", "details": "Week 1-4: Progression on compound lifts." },
-	{ "id": "plan_2", "clientId": "user_client_1", "type": "nutrition", "title": "High Protein Meal Plan", "details": "Aim 180g protein daily. Hydrate well." }
-]
-

@@ -1,0 +1,13 @@
+[
+	{ "id": "sess_1", "clientId": "user_client_1", "trainerId": "user_trainer_1", "date": "2024-12-16", "time": "18:00", "title": "Početni trening - procjena" },
+	{ "id": "sess_2", "clientId": "user_client_1", "trainerId": "user_trainer_1", "date": "2024-12-18", "time": "18:30", "title": "Funkcionalni trening nogu" },
+	{ "id": "sess_3", "clientId": "user_client_1", "trainerId": "user_trainer_1", "date": "2024-12-20", "time": "18:00", "title": "Kardio i core stabilizacija" },
+	{ "id": "sess_4", "clientId": "user_client_1", "trainerId": "user_trainer_1", "date": "2024-12-23", "time": "17:30", "title": "Trening gornjeg dijela tijela" },
+	{ "id": "sess_5", "clientId": "user_client_1", "trainerId": "user_trainer_1", "date": "2024-12-25", "time": "09:00", "title": "Blagdanski lagani trening" },
+	{ "id": "sess_6", "clientId": "user_client_1", "trainerId": "user_trainer_1", "date": "2024-12-27", "time": "18:00", "title": "Full body workout" },
+	{ "id": "sess_7", "clientId": "user_client_1", "trainerId": "user_trainer_1", "date": "2024-12-30", "time": "17:00", "title": "Novogodišnja motivacija" },
+	{ "id": "sess_8", "clientId": "user_client_1", "trainerId": "user_trainer_1", "date": "2025-01-03", "time": "18:30", "title": "Povratak nakon pauze" },
+	{ "id": "sess_9", "clientId": "user_client_1", "trainerId": "user_trainer_1", "date": "2025-01-06", "time": "18:00", "title": "HIIT kardio sesija" },
+	{ "id": "sess_10", "clientId": "user_client_1", "trainerId": "user_trainer_1", "date": "2025-01-08", "time": "18:30", "title": "Snaga i izdržljivost" }
+]
+

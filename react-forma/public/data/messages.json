@@ -1,0 +1,18 @@
+[
+	{ "id": "msg_1", "fromUserId": "user_trainer_1", "toUserId": "user_client_1", "text": "Dobrodošli u Forma+! Spreman sam pomoći vam postići vaše fitness ciljeve. 💪", "timestamp": 1734291600000 },
+	{ "id": "msg_2", "fromUserId": "user_client_1", "toUserId": "user_trainer_1", "text": "Hvala trenere! Jedva čekam početi s treningom.", "timestamp": 1734291900000 },
+	{ "id": "msg_3", "fromUserId": "user_trainer_1", "toUserId": "user_client_1", "text": "Odlično! Zakazao sam vaš početni trening za ponedjeljak u 18:00. Molim donesite sportsku odjeću i bocu vode.", "timestamp": 1734292200000 },
+	{ "id": "msg_4", "fromUserId": "user_client_1", "toUserId": "user_trainer_1", "text": "Super! Ima li što posebno što trebam znati za prvi trening?", "timestamp": 1734292500000 },
+	{ "id": "msg_5", "fromUserId": "user_trainer_1", "toUserId": "user_client_1", "text": "Samo dođite s motivacijom! Radit ćemo procjenu trenutnog stanja i postaviti realne ciljeve. Ništa previše naporno za početak. 😊", "timestamp": 1734292800000 },
+	{ "id": "msg_6", "fromUserId": "user_client_1", "toUserId": "user_trainer_1", "text": "Odličan prvi trening danas! Osjećam se malo umorno ali motivirano.", "timestamp": 1734469200000 },
+	{ "id": "msg_7", "fromUserId": "user_trainer_1", "toUserId": "user_client_1", "text": "Fantastično! To je normalno za početak. Odličan početak! Idući trening: srijeda 18:30 - fokus na nogama.", "timestamp": 1734469500000 },
+	{ "id": "msg_8", "fromUserId": "user_client_1", "toUserId": "user_trainer_1", "text": "Možemo li malo prije? Imam obveze u 20h.", "timestamp": 1734469800000 },
+	{ "id": "msg_9", "fromUserId": "user_trainer_1", "toUserId": "user_client_1", "text": "Naravno! Pomjerimo na 18:00. Vrijeme treninga je 60-75 minuta.", "timestamp": 1734470100000 },
+	{ "id": "msg_10", "fromUserId": "user_client_1", "toUserId": "user_trainer_1", "text": "Hvala na fleksibilnosti! Vidimo se srijede!", "timestamp": 1734470400000 },
+	{ "id": "msg_11", "fromUserId": "user_trainer_1", "toUserId": "user_client_1", "text": "Kako se osjećate nakon jučerašnjeg treninga? Ima li bolnih mišića?", "timestamp": 1734642000000 },
+	{ "id": "msg_12", "fromUserId": "user_client_1", "toUserId": "user_trainer_1", "text": "Lagana bol u nogama, ali dobro je! Osjećam se energičnije nego prije.", "timestamp": 1734642300000 },
+	{ "id": "msg_13", "fromUserId": "user_trainer_1", "toUserId": "user_client_1", "text": "Odlično! To znači da radimo dobro. Ne zaboravite se istegnuti i piti puno vode.", "timestamp": 1734642600000 },
+	{ "id": "msg_14", "fromUserId": "user_client_1", "toUserId": "user_trainer_1", "text": "Vidim napredak na vagi! -2.7kg za 3 tjedna - nevjerojatno!", "timestamp": 1735228800000 },
+	{ "id": "msg_15", "fromUserId": "user_trainer_1", "toUserId": "user_client_1", "text": "Bravo! 🎉 Vaš trud se isplačuje. Nastavljamo ovim tempom i dosegnuć ćete ciljeve uskoro!", "timestamp": 1735229100000 }
+]
+

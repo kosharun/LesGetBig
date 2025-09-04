@@ -1,0 +1,30 @@
+[
+	{ 
+		"id": "plan_1", 
+		"clientId": "user_client_1", 
+		"type": "training", 
+		"title": "Početni funkcionalni program - 6 tjedana", 
+		"details": "Tjedan 1-2: Adaptacija i učenje pokreta\n• Osnovni bodyweight vježbe\n• Fokus na pravilnu tehniku\n• 3x tjedno, 45-60min\n\nTjedan 3-4: Uvođenje otpora\n• Lagane utezi i resistance bendovi\n• Povećanje intenziteta\n• Dodavanje kompleksnijih pokreta\n\nTjedan 5-6: Progresija\n• Veći otpor i kompleksnost\n• Funkcionalni krugovi\n• Priprema za napredni program",
+		"goals": "Poboljšanje općenite kondicije, učenje osnovnih pokreta, priprema za naprednije treninge",
+		"frequency": "3x tjedno"
+	},
+	{ 
+		"id": "plan_2", 
+		"clientId": "user_client_1", 
+		"type": "nutrition", 
+		"title": "Plan prehrane za gubitak težine", 
+		"details": "Dnevni cilj: 1800-2000 kcal, 120-140g proteina\n\nDORUČAK:\n• Ovsena kaša s voćem i orasima\n• Grčki jogurt s borovnicama\n• Omlet s povrćem\n\nRUČAK:\n• Piletina/riba s quinoam\n• Velika salata s maslinovim uljem\n• Kuhano povrće\n\nVEČERA:\n• Losos/tofu s povrćem\n• Slatki krumpir\n• Zelena salata\n\nUZINE:\n• Proteinski shake\n• Orasci i voće\n• Hummus s mrkvom\n\nHIDRACIJA: 2.5-3L vode dnevno",
+		"goals": "Deficita od 300-500 kcal za postupan gubitak težine, održavanje mišićne mase",
+		"macros": "Proteini: 25%, Ugljikohidrati: 40%, Masti: 35%"
+	},
+	{ 
+		"id": "plan_3", 
+		"clientId": "user_client_1", 
+		"type": "training", 
+		"title": "HIIT kardio program", 
+		"details": "2x tjedno, dodatno uz osnovni program\n\nSESIJA A - Klassični HIIT (20min):\n• 5min zagrijavanje\n• 8 intervala: 30s rad / 30s odmor\n• 5min istezanje\n\nSESIJA B - Tabata (16min):\n• 4min zagrijavanje\n• 4 Tabata runde (4min rad)\n• 8min istezanje\n\nVJEŽBE:\n• Burpees, Mountain climbers\n• High knees, Jump squats\n• Bicycle crunches, Plank jacks",
+		"goals": "Poboljšanje kardiovaskularne kondicije, povećanje metabolizma",
+		"frequency": "2x tjedno"
+	}
+]
+
