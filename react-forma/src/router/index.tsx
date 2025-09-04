@@ -1,7 +1,6 @@
 import { createBrowserRouter, Navigate, Outlet } from 'react-router-dom'
 import App from '../App'
 import ErrorPage from '../components/ErrorPage'
-import { lazy } from 'react'
 
 // Lazy import pages when implemented
 const Landing = () => import('../pages/Landing').then(m => ({ Component: m.Landing }))

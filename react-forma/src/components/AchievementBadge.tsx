@@ -173,7 +173,7 @@ export function AchievementBadge({
         )}
       </div>
 
-      <style jsx>{`
+      <style>{`
         @keyframes shine {
           0% { left: -100%; }
           100% { left: 100%; }

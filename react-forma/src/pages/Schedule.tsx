@@ -53,14 +53,14 @@ export function Schedule() {
       title: values.title || undefined,
     }
     await Storage.put('schedules', item)
-    setItems(await Storage.getAll('schedules'))
+    setItems(await Storage.getAll<ScheduleItem>('schedules'))
     reset({ clientId: '', date: '', time: '', title: '' })
     toast.success('Termin kreiran')
   }
 
   const remove = async (id: string) => {
     await Storage.delete('schedules', id)
-    setItems(await Storage.getAll('schedules'))
+    setItems(await Storage.getAll<ScheduleItem>('schedules'))
   }
 
   return (
@@ -199,7 +199,7 @@ export function Schedule() {
                       <div className="schedule-list">
                         {myItems
                           .sort((a,b) => (a.date + a.time).localeCompare(b.date + b.time))
-                          .map((item, index) => {
+                          .map((item) => {
                             const client = users.find(u => u.id === item.clientId)
                             const trainer = users.find(u => u.id === item.trainerId)
                             const itemDate = new Date(item.date + 'T' + item.time)

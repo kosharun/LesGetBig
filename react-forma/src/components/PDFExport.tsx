@@ -217,7 +217,7 @@ export function PDFExport({
                     return `
                     <tr>
                       <td>${entry.date}</td>
-                      <td>${metricNames[entry.metric] || entry.metric}</td>
+                      <td>${metricNames[entry.metric as keyof typeof metricNames] || entry.metric}</td>
                       <td>${entry.value}</td>
                       <td>${trend}</td>
                     </tr>

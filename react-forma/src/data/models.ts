@@ -6,6 +6,7 @@ export interface User {
   email: string
   role: Role
   passwordHash: string
+  [key: string]: unknown
 }
 
 export interface Profile {
@@ -17,10 +18,24 @@ export interface Profile {
   bio?: string
   avatarUrl?: string
   goals?: string
+  [key: string]: unknown
 }
 
-export interface Workout { id: string; userId: string; title: string; details?: string }
-export interface Nutrition { id: string; userId: string; title: string; details?: string }
+export interface Workout { 
+  id: string; 
+  userId: string; 
+  title: string; 
+  details?: string;
+  [key: string]: unknown;
+}
+
+export interface Nutrition { 
+  id: string; 
+  userId: string; 
+  title: string; 
+  details?: string;
+  [key: string]: unknown;
+}
 
 export interface ScheduleItem {
   id: string
@@ -29,6 +44,7 @@ export interface ScheduleItem {
   date: string // ISO date
   time: string // HH:mm
   title?: string
+  [key: string]: unknown
 }
 
 export type ProgressMetric = 'weightKg' | 'bodyFatPercent' | 'chestCm' | 'waistCm'
@@ -38,6 +54,7 @@ export interface ProgressEntry {
   date: string
   metric: ProgressMetric
   value: number
+  [key: string]: unknown
 }
 
 export type PlanType = 'training' | 'nutrition'
@@ -48,6 +65,7 @@ export interface Plan {
   type: PlanType
   title: string
   details?: string
+  [key: string]: unknown
 }
 
 export interface Message {
@@ -56,6 +74,7 @@ export interface Message {
   toUserId: string
   timestamp: number
   text: string
+  [key: string]: unknown
 }
 
 export type StoreName =

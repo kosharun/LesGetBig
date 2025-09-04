@@ -17,7 +17,7 @@ export function MyProfile() {
   const session = getCurrentSession()
   const [profile, setProfile] = useState<Profile | null>(null)
   const { register, handleSubmit, formState: { errors, isSubmitting }, reset } = useForm<FormValues>({
-    resolver: zodResolver(profileSchema),
+    resolver: zodResolver(profileSchema) as any,
   })
 
   useEffect(() => {
@@ -157,7 +157,7 @@ export function MyProfile() {
                     </div>
 
                     <div className="edit-card-content">
-                      <form onSubmit={handleSubmit(onSubmit)} noValidate className="profile-edit-form">
+                      <form onSubmit={handleSubmit(onSubmit as any)} noValidate className="profile-edit-form">
                         <div className="form-section">
                           <h3 className="section-title">Osnovni podaci</h3>
                           <div className="row g-3">

@@ -29,7 +29,7 @@ export function Progress() {
   const [clientId, setClientId] = useState<string>('')
 
   const { register, handleSubmit, reset, formState: { errors, isSubmitting } } = useForm<FormValues>({
-    resolver: zodResolver(progressSchema),
+    resolver: zodResolver(progressSchema) as any,
     defaultValues: { metric: 'weightKg' as ProgressMetric },
   })
 
@@ -143,7 +143,7 @@ export function Progress() {
                       </div>
                     )}
 
-                    <form onSubmit={handleSubmit(onSubmit)} noValidate className="progress-form">
+                    <form onSubmit={handleSubmit(onSubmit as any)} noValidate className="progress-form">
                       <FormField id="date" label="Datum" error={errors.date}>
                         <input 
                           id="date" 
@@ -310,8 +310,7 @@ export function Progress() {
                                     font: { size: 12 }
                                   },
                                   grid: { 
-                                    color: 'rgba(229, 231, 235, 1)',
-                                    borderColor: 'rgba(229, 231, 235, 1)'
+                                    color: 'rgba(229, 231, 235, 1)'
                                   }
                                 },
                                 y: { 
@@ -320,8 +319,7 @@ export function Progress() {
                                     font: { size: 12 }
                                   },
                                   grid: { 
-                                    color: 'rgba(229, 231, 235, 1)',
-                                    borderColor: 'rgba(229, 231, 235, 1)'
+                                    color: 'rgba(229, 231, 235, 1)'
                                   }
                                 }
                               },

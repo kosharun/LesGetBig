@@ -3,7 +3,7 @@ import { z } from 'zod'
 export const registerSchema = z.object({
   name: z.string().min(1, 'Ime je obavezno'),
   email: z.string().email('Neispravan email'),
-  role: z.enum(['trainer', 'client'], { required_error: 'Uloga je obavezna' }),
+  role: z.enum(['trainer', 'client'], { message: 'Uloga je obavezna' }),
   password: z.string().min(6, 'Min 6 karaktera'),
   confirmPassword: z.string().min(6, 'Potvrda lozinke je obavezna'),
 }).refine((data) => data.password === data.confirmPassword, {
